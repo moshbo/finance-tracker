@@ -44,7 +44,7 @@ function App() {
 				<Summary transactions={transactions} />
 
 				{/* Transactions Table */}
-				<div className="bg-white rounded-2xl shadow-sm p-6">
+				<div className="bg-white rounded-2xl shadow-sm p-6 mb-8">
 					<h3 className="text-lg font-bold text-gray-800 mb-4">
 						Recent Transactions
 					</h3>
