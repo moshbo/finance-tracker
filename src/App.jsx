@@ -2,6 +2,7 @@ import useTransactions from "./hooks/useTransactions";
 import TransactionForm from "./components/TransactionForm";
 import Summary from "./components/Summary";
 import TransactionRow from "./components/TransactionRow";
+import Chart from "./components/Chart";
 
 function App() {
 	const { transactions, addTransaction, deleteTransaction } = useTransactions();
@@ -70,6 +71,7 @@ function App() {
 						</tbody>
 					</table>
 				</div>
+				<Chart transactions={transactions} />
 			</div>
 		</div>
 	);
